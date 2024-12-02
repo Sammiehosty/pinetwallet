@@ -1,0 +1,127 @@
+
+p {
+font-size:14px; 
+font-weight:500px;  
+}
+h1{
+ color:white; 
+margin: 10px;
+}
+h3{
+ color:green;
+margin: 20px;
+}
+
+h2{
+ color:whilte;
+}
+a{
+ color:red;
+}
+img{
+	
+margin: 5px;
+}
+
+
+.hero{	
+border: 2px solid blue; 
+height: 500px;
+background: gray;
+padding: 15px; 
+margin: 15px;
+}
+
+table, th, td {
+	border: 2px solid blue; 
+	
+	
+margin: 20px;
+}
+
+
+
+header {
+    z-index: 999999;
+    width: 100%;
+    position: relative;
+}
+.navrt{
+	float: right;
+	max-width: 50%;
+	
+}
+
+.navlt{
+	float: left;
+	max-width: 50%;
+}
+
+table, th, td {
+	border: 2px solid black; 
+	border-collapse: collapse;
+	
+}
+
+.box {
+	background-color: blue;
+	width:30%;
+	height:100%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	
+}
+
+.container {
+	width: 100%;
+	height:100%;
+	background-color: red;
+	overflow: auto;
+	margin: 10px;
+	
+}
+
+.container .box {
+	float: left;
+	margin: 5px;
+}
+
+.box1 {
+	background-color: blue;
+}
+
+.box2 {
+	background-color: green;
+}
+
+.box3 {
+	background-color: gray;
+}
+
+//
+.flex-box {
+	background-color: blue;
+	width: 30%;
+	height: 100%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+
+
+}
+
+
+.flex-container {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	display: flex;
+	margin: 10px;
+
+}
+
+.flex-container .flex-box {
+	margin: 5px;
+}
+
